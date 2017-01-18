@@ -73,6 +73,8 @@
 		AA164FCD1E2DB94300DF7A8C = {
 			isa = PBXGroup;
 			children = (
+				AA164FDC1E2DB94300DF7A8C /* AppDelegate.h */,
+				AA164FDD1E2DB94300DF7A8C /* AppDelegate.m */,
 				AA164FFE1E2DB98500DF7A8C /* ViewController1.h */,
 				AA164FFF1E2DB98500DF7A8C /* ViewController1.m */,
 				AA1650001E2DB98500DF7A8C /* ViewController1.xib */,
@@ -82,8 +84,6 @@
 				AA16500B1E2DBDBF00DF7A8C /* MyView.h */,
 				AA16500C1E2DBDBF00DF7A8C /* MyView.m */,
 				AA1650091E2DBD8D00DF7A8C /* MyView.xib */,
-				AA164FDC1E2DB94300DF7A8C /* AppDelegate.h */,
-				AA164FDD1E2DB94300DF7A8C /* AppDelegate.m */,
 				AA164FD81E2DB94300DF7A8C /* XibApp */,
 				AA164FF21E2DB94300DF7A8C /* XibAppTests */,
 				AA164FD71E2DB94300DF7A8C /* Products */,
@@ -430,6 +430,7 @@
 				AA164FFA1E2DB94300DF7A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA164FFB1E2DB94300DF7A8C /* Build configuration list for PBXNativeTarget "XibAppTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				AA164FFD1E2DB94300DF7A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

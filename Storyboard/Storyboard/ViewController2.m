@@ -17,12 +17,12 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  [self setupBarButton];
+  [self setupAddButton];
   self.title = @"View Controller 2";
   self.label.text = self.data;
 }
 
-- (void)setupBarButton {
+- (void)setupAddButton {
   UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addTapped)];
   self.navigationItem.rightBarButtonItem = button;
 }
@@ -34,11 +34,13 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   if ([segue.identifier isEqualToString:@"ViewController3"]) {
-    // get reference to VC the storyboard created.
-    // NEVER Instantiate a view controller here
     ViewController3 *vc3 = segue.destinationViewController;
     vc3.data = @"I just came from VC2";
   }
+}
+
+- (void)dealloc {
+  
 }
 
 

@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" id="pqY-xf-z7h">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="F4e-8e-bcm">
                             <connections>
-                                <segue destination="txw-hK-Um4" kind="show" identifier="ViewController2" id="h1z-5q-7lR"/>
+                                <segue destination="txw-hK-Um4" kind="show" identifier="ViewController2" id="s6s-fB-hQF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -85,7 +85,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="o4G-kR-y5s" id="FMX-xD-O8x"/>
-                        <segue destination="9yQ-cf-L0E" kind="show" identifier="ViewController3" id="5Fe-SW-0SH"/>
+                        <segue destination="9yQ-cf-L0E" kind="show" identifier="ViewController3" id="xBz-a1-9lm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xrH-zT-4cS" userLabel="First Responder" sceneMemberID="firstResponder"/>

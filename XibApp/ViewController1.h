@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController1 : UIViewController
-
+@property (nonatomic) NSString *data;
 @end

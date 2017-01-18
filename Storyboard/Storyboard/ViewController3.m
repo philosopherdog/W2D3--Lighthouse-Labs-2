@@ -19,10 +19,10 @@
   [super viewDidLoad];
   self.title = @"View Controller 3";
   self.label.text = self.data;
-  [self setupBarButtons];
+  [self setupAddButton];
 }
 
-- (void)setupBarButtons {
+- (void)setupAddButton {
   UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addTapped)];
   self.navigationItem.rightBarButtonItem = button;
 }

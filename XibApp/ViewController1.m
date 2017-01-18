@@ -23,4 +23,9 @@
   [self.navigationController pushViewController:vc2 animated:YES];
 }
 
+- (void)setData:(NSString *)data {
+  NSLog(@"%s: Data: %@", __PRETTY_FUNCTION__, self.data);
+  _data = data;
+}
+
 @end

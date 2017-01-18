@@ -29,7 +29,8 @@
   for(NSInteger i = 1; i < 4; ++i) {
     NSString *className = [NSString stringWithFormat:@"ViewController%ld", i];
     UIViewController *vc = [[NSClassFromString(className) alloc] init];
-    vc.title = [NSString stringWithFormat:@"title%@", @(i)];
+    NSString *imageName = [NSString stringWithFormat:@"%ld.pdf", i];
+    vc.tabBarItem = [[UITabBarItem alloc]initWithTitle:[NSString stringWithFormat:@"Item %ld", i] image:[UIImage imageNamed:imageName] tag:i];
     [result addObject:vc];
   }
   return [result copy];

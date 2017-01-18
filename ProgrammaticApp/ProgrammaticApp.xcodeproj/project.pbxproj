@@ -93,7 +93,6 @@
 			children = (
 				AA164F9C1E2DAD7C00DF7A8C /* AppDelegate.h */,
 				AA164F9D1E2DAD7C00DF7A8C /* AppDelegate.m */,
-				AA164F991E2DAD7C00DF7A8C /* Supporting Files */,
 				AA164FBE1E2DADC500DF7A8C /* ViewController1.h */,
 				AA164FBF1E2DADC500DF7A8C /* ViewController1.m */,
 				AA164FC11E2DADCE00DF7A8C /* ViewController2.h */,
@@ -104,6 +103,7 @@
 				AA164FC81E2DB39100DF7A8C /* ViewController4.m */,
 				AA164FCA1E2DB5DA00DF7A8C /* ViewController5.h */,
 				AA164FCB1E2DB5DA00DF7A8C /* ViewController5.m */,
+				AA164F991E2DAD7C00DF7A8C /* Supporting Files */,
 			);
 			path = ProgrammaticApp;
 			sourceTree = "<group>";
@@ -430,6 +430,7 @@
 				AA164FBA1E2DAD7C00DF7A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA164FBB1E2DAD7C00DF7A8C /* Build configuration list for PBXNativeTarget "ProgrammaticAppTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				AA164FBD1E2DAD7C00DF7A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

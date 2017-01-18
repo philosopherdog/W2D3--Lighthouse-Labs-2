@@ -18,10 +18,10 @@
     [super viewDidLoad];
   self.title = @"View Controller 4";
   self.label.text = self.data;
-  [self setupBarButton];
+  [self setupDoneButton];
 }
 
-- (void)setupBarButton {
+- (void)setupDoneButton {
   UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneTapped)];
   self.navigationItem.rightBarButtonItem = button;
 }
