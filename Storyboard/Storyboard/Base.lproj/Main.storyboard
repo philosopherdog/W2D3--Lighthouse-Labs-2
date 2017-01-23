@@ -28,6 +28,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuk-mD-7lf">
+                                <rect key="frame" x="65" y="206" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVb-7h-sX5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -38,7 +46,7 @@
                     <navigationItem key="navigationItem" id="pqY-xf-z7h">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="F4e-8e-bcm">
                             <connections>
-                                <segue destination="txw-hK-Um4" kind="show" identifier="ViewController2" id="s6s-fB-hQF"/>
+                                <segue destination="txw-hK-Um4" kind="show" identifier="ViewController2" id="fy2-jx-w21"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -85,7 +93,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="o4G-kR-y5s" id="FMX-xD-O8x"/>
-                        <segue destination="9yQ-cf-L0E" kind="show" identifier="ViewController3" id="xBz-a1-9lm"/>
+                        <segue destination="9yQ-cf-L0E" kind="show" identifier="ViewController3" id="j4k-Qy-Qdb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xrH-zT-4cS" userLabel="First Responder" sceneMemberID="firstResponder"/>
